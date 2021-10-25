@@ -1,19 +1,24 @@
-<h1>Medicion de Audiencias Electronika Versión 1</h1>
+<h1>Medicion de Audiencias Electronika </h1>
 <h4>Instalacion</h4>
-  1-Descargar los modelos pre entrenados: https://drive.google.com/drive/folders/1iQ7yQQ-Hsu4_F3Rpv3jMxsJW-a-5f-R_?usp=sharing
-  2-Descargar Python 3.5-3.7(Importante agregar las variables de entorno al principio de la instalacion)https://www.python.org/downloads/windows/<br>
-    2.1-Descargar las siguientes librerias de Python<br>
+Guiarse de la documentacion https://docs.openvinotoolkit.org/2020.4/openvino_docs_install_guides_installing_openvino_windows.html<br>
+  1-Descargar Visual studio 2019 - 2017 https://visualstudio.microsoft.com/downloads/ <br>
+  2-Descargar CMake 2.8.12 en adelante https://cmake.org/download/ <br>
+  3-Descargar Python 3.5-3.7(Importante agregar las variables de entorno al principio de la instalacion)https://www.python.org/downloads/windows/<br>
+    3.1-Descargar las siguientes librerias de Python<br>
       -pip install opencv-contrib-python<br>
       -pip install getmac<br>
       -pip install mysql-connector-python<br>
       -pip install scipy<br>
-  3-Descargar Xammp <br>
-    3.1-Agregar la tabla reco.sql (el nombre de la base de datos es electronika)<br>
+  4-Descargar OpenVino 2020.4 https://registrationcenter.intel.com/en/products/postregistration/?dnld=t&SN=C5RC-P4RC9C4H&encEma=U3tdVrOFt/AHArVlnRggducO9LpytA6NEI7XDPFGjuz6z21baZPkJIHmilJlIHOnr2vCIiI13bAReibXNNNLGA==&Sequence=2832669&pass=yes#<br>
+  5-Descargar Xammp <br>
+    5.1-Agregar la tabla reco.sql (el nombre de la base de datos es electronika)<br>
   
 <h4>Corriendo la App</h4>
 1-Correr Xammp<br>
 2-Abrir una consola<br> 
-3-Cambiar a la carpeta donde tenemos el proyecto <br>
-4-Correr la app con python app.py<br>
+3-Dirigirse a la carpeta donde esta el bin del openvino guiarse de https://docs.openvinotoolkit.org/2020.4/openvino_docs_install_guides_installing_openvino_windows.html#set-the-environment-variables<br>
+4-Inicializar las varibales con setupvars.bat<br>
+5-Cambiar a la carpeta donde tenemos el proyecto <br>
+6-correr la app con python app.py<br>
 
   
