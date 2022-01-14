@@ -1,6 +1,6 @@
 <h1>Medicion de Audiencias Electronika Versión 1</h1>
 <h4>Instalacion</h4>
-  1-Descargar los modelos pre entrenados: https://drive.google.com/drive/folders/1iQ7yQQ-Hsu4_F3Rpv3jMxsJW-a-5f-R_?usp=sharing
+  1-Descargar los modelos pre entrenados: https://drive.google.com/drive/folders/1iQ7yQQ-Hsu4_F3Rpv3jMxsJW-a-5f-R_?usp=sharing<br>
   2-Descargar Python 3.5-3.7(Importante agregar las variables de entorno al principio de la instalacion)https://www.python.org/downloads/windows/<br>
     2.1-Descargar las siguientes librerias de Python<br>
       -pip install opencv-contrib-python<br>
